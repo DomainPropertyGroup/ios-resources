@@ -179,7 +179,7 @@ iVars and properties
 
 >
 <ul>
-<li>Private iVars belong in a blank category in the implementation file NOT the header. 
+<li>Private iVars belong on the @implementation.
 <li>Protected iVars belong in the header with @protected keyword. (so it doesn’t look like private iVars placed incorectly)
 <li>Use protected iVars for subclass use. NOT properties.
 </ul>
