@@ -191,13 +191,13 @@ iVars and properties
 ###Incorrect
 
  ```objective-c
-UIView* myView;
+UIView *myView;
   ```
  
 ###Correct
 
  ```objective-c
-UIView* _myView;
+UIView *_myView;
  ```
 
 * * *
@@ -525,7 +525,7 @@ NSObject* myObject = [NSObject new];
 ###Correct
 
  ```objective-c
-NSObject* myObject = [[NSObject alloc] init];
+NSObject *myObject = [[NSObject alloc] init];
  ``` 
 Class names
 ---------------------
