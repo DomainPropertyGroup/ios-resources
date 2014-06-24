@@ -489,7 +489,7 @@ label.text = (isAwesome) ? @"awesome" : @"lame";
 Scalars
 ---------------------
 
->Don't use 32-bit scalars.
+>Don't use platform or bit-size specific scalars unless explicitly needed.
 
 ###Incorrect
 
@@ -503,6 +503,12 @@ float myFloat  = 1.0f;
  ```objective-c
 NSInteger myInt  = 16;
 CGFloat myFloat  = 1.0f;
+ ``` 
+ 
+###Correct
+
+ ```objective-c
+UInt8 mySmallInt = 4; // I really need an 8-bit integer here for the following reasons...
  ``` 
  
 The 'new' constructor
