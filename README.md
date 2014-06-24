@@ -228,7 +228,7 @@ typedef enum {
     ExampleStyle_None,
     ExampleStyle_Short,
 } ExampleStyle;
-```
+ ```
  
 ###Correct
 
@@ -237,7 +237,7 @@ typedef NS_ENUM(NSInteger, ExampleStyle) {
     ExampleStyle_None,
     ExampleStyle_Short,
 };
-```
+ ```
 
 * * *
 
@@ -255,7 +255,7 @@ typedef NS_ENUM(NSInteger, CellHeight) {
     Short,
     Tall,
 };
-```
+ ```
  
 ###Correct
 
@@ -265,7 +265,7 @@ typedef NS_ENUM(NSInteger, CellHeight) {
     CellHeight_Short,
     CellHeight_Tall,
 };
-```
+ ```
 
 Boolean comparisons
 ---------------------
@@ -411,7 +411,7 @@ Custom constructor
 
  ```objective-c
 - (id)init;
-  ```
+ ```
  
 ###Correct
 
