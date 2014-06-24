@@ -364,8 +364,8 @@ Blocks
 ###Correct
 
  ```objective-c
-typedef returnType (^myBlockTypeName)(parameterTypes);
-- (void)someMethodThatTakesABlock:(myBlockTypeName)myBlockParamName;
+typedef returnType (^MYBlockTypeName)(parameterTypes);
+- (void)someMethodThatTakesABlock:(MYBlockTypeName)block;
  ``` 
 
 Methods requiring a super call
