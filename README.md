@@ -632,7 +632,7 @@ sqrtf(M_PI);
 Delegate methods
 ---------------------
 
->When creating a component that uses delegation include a reference to that component through it’s delegate methods. Try to use the component name, excluding the prefix, at the start of each delegate method whenever possible. The component will be called “DFPickerView” for this example.
+>When creating a component that uses delegation include a reference to that component through it’s delegate methods. Try to use the component name, excluding the prefix, at the start of each delegate method whenever possible. The component will be called “DMPickerView” for this example.
 
 ###Incorrect
  ```objective-c
@@ -643,7 +643,7 @@ Delegate methods
 ###Correct
  ```objective-c
  
--(void)pickerView:(DFPickerView *)pickerView  didPressItemAtIndex:(NSUInteger)itemIndex;
+-(void)pickerView:(DMPickerView *)pickerView  didPressItemAtIndex:(NSUInteger)itemIndex;
  ``` 
 
 * * *
@@ -653,13 +653,13 @@ Delegate methods
 ###Incorrect
 
  ```objective-c
--(void)pickerMayStartBehaviour:(DFPickerView *)pickerView;
+-(void)pickerMayStartBehaviour:(DMPickerView *)pickerView;
  ```
  
 ###Correct
 
  ```objective-c
--(void)pickerDidStartBehaviour:(DFPickerView *)pickerView;
+-(void)pickerDidStartBehaviour:(DMPickerView *)pickerView;
  ```
 
 Localizable strings key format
