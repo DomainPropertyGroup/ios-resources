@@ -549,7 +549,7 @@ UserBehaviourManager
 DMUserBehaviourController
  ``` 
 
- ###Correct
+###Correct
 
  ```objective-c
 DMABCUserBehaviourModel
