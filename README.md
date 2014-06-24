@@ -505,10 +505,11 @@ NSInteger myInt  = 16;
 CGFloat myFloat  = 1.0f;
  ``` 
  
+>Use stdint types for exact bit widths
 ###Correct
 
  ```objective-c
-UInt8 mySmallInt = 4; // I really need an 8-bit integer here for the following reasons...
+uint8_t mySmallInt = 4; // I really need an 8-bit integer here for the following reasons...
  ``` 
  
 The 'new' constructor
