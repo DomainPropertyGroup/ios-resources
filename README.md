@@ -469,7 +469,7 @@ static const NSInteger myAwesomeConstant = 17;
 static const NSInteger kMyAwesomeConstant = 17;
  ``` 
  
-Turnery operators
+Ternary operators
 ---------------------
 
 >Wrap the conditional in parentheses and leave a space on either side of all operators.
@@ -485,6 +485,12 @@ label.text = isAwesome? @"awesome": @"lame";
  ```objective-c
 label.text = (isAwesome) ? @"awesome" : @"lame";
  ``` 
+
+> Use the short ternary operator to provide fallback values.
+
+ ```objective-c
+ label.text = possiblyAvailableContentString ?: defaultString;
+ ```
 
 Scalars
 ---------------------
