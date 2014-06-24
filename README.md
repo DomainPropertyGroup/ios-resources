@@ -1,4 +1,4 @@
-!(https://avatars3.githubusercontent.com/u/7484540?s=140)
+![](https://avatars3.githubusercontent.com/u/7484540?s=140)
 
 
 Domain Objective-C styleguide
