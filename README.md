@@ -25,9 +25,9 @@ Brace style
 ###Correct
 
  ```objective-c
--(void)myMethodName{
+- (void)myMethodName {
 
-  if (myCondition){
+  if (myCondition) {
     
   }
 }
@@ -136,8 +136,8 @@ Method naming
 ###Correct
 
  ```objective-c
--(void)setSize:(CGSize)size;
--(CGSize)size;
+- (void)setSize:(CGSize)size;
+- (CGSize)size;
  ```
 * * *
 
@@ -152,10 +152,10 @@ Method naming
 ###Correct
 
  ```objective-c
--(BOOL)canDisplay;
--(BOOL)willDisplay;
--(BOOL)shouldDisplay;
--(BOOL)isDisplaying;
+- (BOOL)canDisplay;
+- (BOOL)willDisplay;
+- (BOOL)shouldDisplay;
+- (BOOL)isDisplaying;
  ```
  
 * * *
@@ -171,7 +171,7 @@ Method naming
 ###Correct
 
  ```objective-c
--(void)makeRequestWithURL;
+- (void)makeRequestWithURL;
  ```
  
 iVars and properties
@@ -573,7 +573,7 @@ Commenting
  
  ```objective-c
  /** this method does ... */ 
--(void)myMethod{
+- (void)myMethod {
 
 }
  ``` 
@@ -596,7 +596,7 @@ Commenting
 
  ```objective-c
  
--(void)myMethod{
+- (void)myMethod {
 //normally technique A should be used here but 
 //because of [reason] technique B must be used. 
 
@@ -623,7 +623,7 @@ sqrtf(M_PI);
 
  ```objective-c
  
--(void)myMethod{
+- (void)myMethod {
   //|myInt| is used to calculate the meaning of life.
   NSInteger myInt = 42;
 }
@@ -643,7 +643,7 @@ Delegate methods
 ###Correct
  ```objective-c
  
--(void)pickerView:(DMPickerView *)pickerView  didPressItemAtIndex:(NSUInteger)itemIndex;
+- (void)pickerView:(DFPickerView *)pickerView didPressItemAtIndex:(NSUInteger)itemIndex;
  ``` 
 
 * * *
@@ -653,13 +653,13 @@ Delegate methods
 ###Incorrect
 
  ```objective-c
--(void)pickerMayStartBehaviour:(DMPickerView *)pickerView;
+-(void)pickerMayStartBehaviour:(DFPickerView *)pickerView;
  ```
  
 ###Correct
 
  ```objective-c
--(void)pickerDidStartBehaviour:(DMPickerView *)pickerView;
+- (void)pickerDidStartBehaviour:(DFPickerView *)pickerView;
  ```
 
 Localizable strings key format
@@ -715,7 +715,7 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 ###Correct
 
  ```objective-c
--(void)myMethod {
+- (void)myMethod {
 
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
@@ -728,7 +728,7 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
     });
 }
 
--(void)anotherMethod:(MyBlockType)myBlock {
+- (void)anotherMethod:(MyBlockType)myBlock {
 
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
