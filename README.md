@@ -670,7 +670,7 @@ Localizable strings key format
 ###Incorrect
 
  ```objective-c
-CONTACT_TABLE_DISMISS_CONFIRM_BUTTON_TOTALLY = "Totally"
+"CONTACT_TABLE_DISMISS_CONFIRM_BUTTON_TOTALLY" = "Totally"
  ```
 
  ###Incorrect
