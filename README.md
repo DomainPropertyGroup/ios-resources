@@ -290,7 +290,21 @@ if (!myBOOL)
 Dot notation
 ---------------------
 
->Dot notation is to be used at all available opportunities unless explicitly frowned-upon by this styleguide.
+>Dot notation is to be used for get/set methods at all available opportunities unless explicitly frowned-upon by this styleguide. It should not be used for other methods.
+
+###Incorrect
+
+ ```objective-c
+UIView* v = UIView.alloc.init;
+UIColor* c = [v backgroundColor];
+ ```
+ 
+###Correct
+
+ ```objective-c
+UIView* v = [[UIView alloc] init];
+UIColor* c = v.backgroundColor;
+ ```
 
 Import/Include
 ---------------------
