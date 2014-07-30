@@ -66,9 +66,17 @@ if (myCondition) {
 Assignment alignment
 ---------------------
 
->Align all assignment operators if possible.
+>Use either aligned or unaligned assignment as appropriate. The equals symbol must always be surrounded by whitespace. Do not mix and match aligned and unaligned within an assignment block.
 
 ###Incorrect
+
+ ```objective-c
+myObjectWithLongName   =16
+myVarWithShortName= anotherObject
+superShort=@"wicked"
+ ```
+
+###Correct
 
  ```objective-c
 myObjectWithLongName = 16
